@@ -23,7 +23,7 @@ app.use(errorHandler) //Error Handler
 //Set port to what ever enviorment variable is set. Used in prod as app can run on any port
 //In local enviorment  process.env.port is not set.
 //You can set by $PORT=6000 node app.js 
-const port = process.env.port || 3000
+const port = process.env.port || 4000
 
 const start = async ()=>{
     try{
