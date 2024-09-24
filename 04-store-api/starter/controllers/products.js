@@ -28,6 +28,8 @@ const getAllProduct = async (req,res)=>{
 
     //NUMERIC FILTERING
     console.log(numericFilters);
+    //console.log(typeof numericFilters);
+    
     
     
     if(numericFilters){
@@ -57,6 +59,7 @@ const getAllProduct = async (req,res)=>{
         })
     }
 
+    console.log('QUERY OBJECT');
     console.log(queryObject);
     
     
